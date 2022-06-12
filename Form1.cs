@@ -1,8 +1,8 @@
 namespace PPA_Integrador
 {
-    public partial class Form1 : Form
+    public partial class FormularioLogin : Form
     {
-        public Form1()
+        public FormularioLogin()
         {
             InitializeComponent();
         }

@@ -2,12 +2,18 @@
 {
     public class CaracteristicaRecurso
     {
-        public string valor { get; set; }
-        public Caracteristica caracteristica { get; set; }
+        public int Valor { get; set; }
+        public Caracteristica Caracteristica { get; set; }
+        
+        public CaracteristicaRecurso(int valor, Caracteristica caracteristica) 
+        {
+            this.Valor = valor;
+            this.Caracteristica = caracteristica;
 
+        }
         public string mostrarCaracteristicaRecurso()
         {
-            return this.caracteristica.ToString() + " " + this.valor;
+            return this.Caracteristica.ToString() + " " + this.Valor;
 
         }
     }
