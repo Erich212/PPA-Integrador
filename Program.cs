@@ -11,7 +11,10 @@ namespace PPA_Integrador
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormularioLogin());
+            
+            Application.Run(new FormularioCasoUso());
+            
+            
         }
     }
 }
