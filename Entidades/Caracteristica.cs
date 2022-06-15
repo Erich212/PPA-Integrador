@@ -2,5 +2,6 @@
 {
     public class Caracteristica
     {
+        public float valor{get;set}
     }
 }
